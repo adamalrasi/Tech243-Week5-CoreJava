@@ -15,11 +15,4 @@ public class ContainsLetterTest {
         Assertions.assertEquals(expected, actual);
     }
     
-    @Test
-    public void testHashMapProgram() {
-        // Arrange
-        // Act
-        // Assert
-        
-    }
 }

@@ -14,17 +14,26 @@ import java.util.TreeSet;
 public class App {
     public static void main(String[] args) {
 
-        ArrayList<String> names = new ArrayList<>(Arrays.asList("Leonardo", "Donatello", "Michelangelo", "Raphael"));
+        CollectionsTask hashSet = new CollectionsTask();
 
-        Collections.sort(names);
-        System.out.println(names);
+        System.out.println(hashSet.makeFiveSet(15));
 
-        ArrayList<Person> people = new ArrayList<>();
-        people.add(new Person("Adam", "Alrasi"));
-        people.add(new Person("Mahad", "Abukar"));
+        CollectionsTask arrayList = new CollectionsTask();
 
-        Collections.sort(people, new PersonComparator());
-        System.out.println(people);
+        System.out.println(arrayList.longWordList("hello1 there1 hi"));
+
+
+        // ArrayList<String> names = new ArrayList<>(Arrays.asList("Leonardo", "Donatello", "Michelangelo", "Raphael"));
+
+        // Collections.sort(names);
+        // System.out.println(names);
+
+        // ArrayList<Person> people = new ArrayList<>();
+        // people.add(new Person("Adam", "Alrasi"));
+        // people.add(new Person("Mahad", "Abukar"));
+
+        // Collections.sort(people, new PersonComparator());
+        // System.out.println(people);
 
         // ContainsLetter mapContainer = new ContainsLetter();
 
