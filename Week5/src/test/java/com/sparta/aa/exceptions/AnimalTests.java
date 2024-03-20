@@ -9,7 +9,7 @@ public class AnimalTests {
     @Test
     public void checkThatTheDOBCanBeSet(){
         Animal testAnimal = new Animal();
-        Assertions.assertThrows(Error.class, () -> testAnimal.setDob("ooo"));
+        Assertions.assertThrows(ParseException.class, () -> testAnimal.setDob("ooo"));
         
     }
 }

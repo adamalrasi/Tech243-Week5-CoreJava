@@ -34,9 +34,9 @@ public class Animal {
         }
     }
 
-    public Exception setDob(String dateString) throws ParseException{
+    public Date setDob(String dateString) throws ParseException{
         dob = new SimpleDateFormat("dd-MM-yyyy").parse(dateString);
-        return null;
+        return dob;
     }
 
     public void setName(String name){
