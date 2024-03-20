@@ -21,7 +21,7 @@ public class CollectionsTask {
         ArrayList<String> result = new ArrayList<>();
 
         for(String word: string.split(" ")){
-            if(word.length()>5){
+            if(word.length()>=5){
                 result.add(word);
             }
         }

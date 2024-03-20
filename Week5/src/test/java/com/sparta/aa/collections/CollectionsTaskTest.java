@@ -44,7 +44,7 @@ public class CollectionsTaskTest {
     @DisplayName("Check if the method takes in hello1 and returns hello1")
     void checkIfMethodIsReturnOneValueCorrectly() {
         // Arrange
-        String string = "hello1";
+        String string = "hello";
         ArrayList<String> expected = new ArrayList<>( Arrays.asList(string));
         CollectionsTask testHashSet = new CollectionsTask();
         List<String> actual = testHashSet.longWordList(string);
